@@ -18,4 +18,16 @@ public class CalculosSimples
         return subtrai;
 
     }
+    public double Dividir(double numero1, double numero2)
+    {
+        double dividir = numero1 / numero2;
+        return dividir;
+
+    }
+    public double Multiplicar(double numero1, double numero2)
+    {
+        double multiplica = numero1 * numero2;
+        return multiplica;
+
+    }
 }

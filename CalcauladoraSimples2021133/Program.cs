@@ -26,10 +26,12 @@ switch (opcao)
 
         break;
     case 3:
-        //Código para dividir
+        double resultadoDividir = new CalculosSimples().Dividir(numero1, numero2);
+        Console.WriteLine($"{numero1} / {numero2} = {resultadoDividir}");
         break;
     case 4:
-        //Código para multiplicar
+        double resultadoMultiplicar = new CalculosSimples().Multiplicar(numero1, numero2);
+        Console.WriteLine($"{numero1} * {numero2} = {resultadoMultiplicar}");
         break;
     default:
         Console.WriteLine("Opção inválida!");
